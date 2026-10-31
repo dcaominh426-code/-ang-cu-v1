@@ -1,4 +1,3 @@
-app/src/main/java/com/dangcu/app/FloatingService.java
 package com.dangcu.app;
 
 import android.app.Service;
