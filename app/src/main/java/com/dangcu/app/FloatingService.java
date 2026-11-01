@@ -63,7 +63,10 @@ public class FloatingService extends Service {
                 WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY,
                 WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE |
                 WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE |
-                WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN,
+                WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE |
+WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE |
+WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN |
+WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
                 PixelFormat.TRANSLUCENT
             );
 
